@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    background-color: honeydew;
+
+}
+
+.header div {
+    display: flex;
+    width: 40px;
+    margin-left: 90px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: lavenderblush;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+   margin: 0 auto;
+}
+
+.outerData {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.outerData div {
+    margin-right: 80px;
+    width: 50px;
+    display: flex;
+
+}
+
+.buttonsBlock {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.buttonsBlock button, select {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.contentData{
+    height: 500px;
+    overflow-x:hidden
+}
+button,select{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: blue;
+    background-color: transparent;
+}
+.wrapper .search{
+    display: flex;
+    margin-left: 80px;
+}
+input{
+    padding-bottom: 5px;
+    outline: none;
+    border: none;
+    background-color:lavenderblush ;
+    border-bottom: 1px solid darkslategray;
+
+}
+
+
